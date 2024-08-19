@@ -1,2 +1,2 @@
-This directory contains all the standalone scripts that ran BERT-Large on a compute cluster hosted by our university. 
+This directory contains all the standalone scripts that ran BERT(-Large) on a slurm managed compute cluster hosted by our university. 
 Due to the computational costs of running a model of this size, we were unable to run it on our personal machines using jupyter notebooks.
