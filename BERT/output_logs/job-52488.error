@@ -1,0 +1,7 @@
+[38;5;127mmpi[0m/[38;5;172mopenmpi[0m/[38;5;67m4.1.5[0m/[38;5;68mgcc-4.8.5[0m
+ | -- [38;5;127mlibs[0m/[38;5;172mgcc[0m/[38;5;67msystem[0m
+ |    * --> [0;32mOK[0m
+ |
+ [0;32mOK[0m
+/users/asa30/.local/share/flight/env/conda+asa30c/envs/torch-dmog/lib/python3.11/site-packages/transformers/optimization.py:457: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(

@@ -1,0 +1,445 @@
+Your results will be stored in: /users/asa30/f20aa-2024/cw2/LARGE-BERT-CLASSIFIER-NO-EVAL-outputs/52499
+Executing job commands, current working directory is /users/asa30/f20aa-2024/cw2
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/condabin/conda
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/bin/conda
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/bin/conda-env
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/bin/activate
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/bin/deactivate
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/etc/profile.d/conda.sh
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/etc/fish/conf.d/conda.fish
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/shell/condabin/Conda.psm1
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/shell/condabin/conda-hook.ps1
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/lib/python3.11/site-packages/xontrib/conda.xsh
+no change     /users/asa30/.local/share/flight/env/conda+asa30c/etc/profile.d/conda.csh
+no change     /users/asa30/.bashrc
+No action taken.
+Epoch 1/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.8467
+              precision    recall  f1-score   support
+
+           0       0.74      0.63      0.68      2160
+           1       0.47      0.28      0.35      1979
+           2       0.56      0.60      0.58      4341
+           3       0.58      0.37      0.46      9209
+           4       0.91      0.97      0.94     56484
+
+    accuracy                           0.85     74173
+   macro avg       0.65      0.57      0.60     74173
+weighted avg       0.83      0.85      0.83     74173
+
+Epoch 2/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.8756
+              precision    recall  f1-score   support
+
+           0       0.74      0.81      0.77      2160
+           1       0.61      0.49      0.54      1979
+           2       0.69      0.68      0.69      4341
+           3       0.75      0.38      0.51      9209
+           4       0.91      0.99      0.95     56484
+
+    accuracy                           0.88     74173
+   macro avg       0.74      0.67      0.69     74173
+weighted avg       0.86      0.88      0.86     74173
+
+Epoch 3/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.8964
+              precision    recall  f1-score   support
+
+           0       0.73      0.90      0.80      2160
+           1       0.74      0.48      0.58      1979
+           2       0.78      0.73      0.75      4341
+           3       0.79      0.51      0.62      9209
+           4       0.93      0.99      0.96     56484
+
+    accuracy                           0.90     74173
+   macro avg       0.79      0.72      0.74     74173
+weighted avg       0.89      0.90      0.89     74173
+
+Epoch 4/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9211
+              precision    recall  f1-score   support
+
+           0       0.87      0.88      0.88      2160
+           1       0.80      0.72      0.76      1979
+           2       0.83      0.82      0.83      4341
+           3       0.86      0.60      0.71      9209
+           4       0.94      0.99      0.96     56484
+
+    accuracy                           0.92     74173
+   macro avg       0.86      0.80      0.83     74173
+weighted avg       0.92      0.92      0.92     74173
+
+Epoch 5/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9384
+              precision    recall  f1-score   support
+
+           0       0.94      0.91      0.92      2160
+           1       0.86      0.81      0.83      1979
+           2       0.89      0.86      0.87      4341
+           3       0.91      0.67      0.77      9209
+           4       0.95      0.99      0.97     56484
+
+    accuracy                           0.94     74173
+   macro avg       0.91      0.85      0.87     74173
+weighted avg       0.94      0.94      0.94     74173
+
+Epoch 6/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9500
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.95      2160
+           1       0.90      0.90      0.90      1979
+           2       0.94      0.88      0.91      4341
+           3       0.96      0.70      0.81      9209
+           4       0.95      1.00      0.97     56484
+
+    accuracy                           0.95     74173
+   macro avg       0.94      0.88      0.91     74173
+weighted avg       0.95      0.95      0.95     74173
+
+Epoch 7/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9596
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.96      2160
+           1       0.91      0.92      0.92      1979
+           2       0.95      0.89      0.92      4341
+           3       0.96      0.78      0.86      9209
+           4       0.96      1.00      0.98     56484
+
+    accuracy                           0.96     74173
+   macro avg       0.95      0.91      0.93     74173
+weighted avg       0.96      0.96      0.96     74173
+
+Epoch 8/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9648
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.95      2160
+           1       0.97      0.89      0.93      1979
+           2       0.97      0.92      0.94      4341
+           3       0.97      0.80      0.88      9209
+           4       0.96      1.00      0.98     56484
+
+    accuracy                           0.96     74173
+   macro avg       0.96      0.92      0.94     74173
+weighted avg       0.97      0.96      0.96     74173
+
+Epoch 9/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9696
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97      2160
+           1       0.97      0.95      0.96      1979
+           2       0.98      0.92      0.95      4341
+           3       0.97      0.83      0.89      9209
+           4       0.97      1.00      0.98     56484
+
+    accuracy                           0.97     74173
+   macro avg       0.97      0.93      0.95     74173
+weighted avg       0.97      0.97      0.97     74173
+
+Epoch 10/10
+Batch: 0
+Batch: 100
+Batch: 200
+Batch: 300
+Batch: 400
+Batch: 500
+Batch: 600
+Batch: 700
+Batch: 800
+Batch: 900
+Batch: 1000
+Batch: 1100
+Batch: 1200
+Batch: 1300
+Batch: 1400
+Batch: 1500
+Batch: 1600
+Batch: 1700
+Batch: 1800
+Batch: 1900
+Batch: 2000
+Batch: 2100
+Batch: 2200
+Batch: 2300
+Batch: 2400
+Batch: 2500
+Batch: 2600
+Batch: 2700
+Batch: 2800
+Validation Accuracy: 0.9715
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98      2160
+           1       0.98      0.96      0.97      1979
+           2       0.98      0.93      0.95      4341
+           3       0.98      0.83      0.90      9209
+           4       0.97      1.00      0.98     56484
+
+    accuracy                           0.97     74173
+   macro avg       0.97      0.94      0.96     74173
+weighted avg       0.97      0.97      0.97     74173
+
